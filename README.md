@@ -31,7 +31,7 @@ SELECT * FROM users WHERE registration_date >= DATE_SUB(CURDATE(), INTERVAL 7 DA
 
 
 
-Made with ❤️ by Abhi
+Made with ❤️ by Abx
 
 
 ---
