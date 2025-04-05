@@ -31,18 +31,10 @@ SELECT * FROM users WHERE registration_date >= DATE_SUB(CURDATE(), INTERVAL 7 DA
 
 
 
-🧪 Example Queries
-
-"Get the total number of orders this month"
-"List products with less than 10 items in stock"
-"Show me the top 5 highest spending customers"
-📄 License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 Made with ❤️ by Abhi
 
 
 ---
 
-Want me to customize this further based on the tech stack or features you've built? Just let me know!
+Want me to customize this further based on the tech stack or features you've built?
+I will not if you want to use do it by your self
