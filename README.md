@@ -1,2 +1,19 @@
-# Agent-to-interact-with-SQL-DB
-An project that converts  a simple prompt to sql query and provide answer to that
+# SQL Agent
+
+An intelligent agent that interacts with SQL queries — accepts natural language input, converts it into SQL, and executes it on a connected database. Perfect for making database queries easier for non-technical users.
+
+## 🚀 Features
+
+- Accepts natural language questions
+- Translates them to SQL queries
+- Connects and executes queries on supported databases (e.g., MySQL, SQLite, PostgreSQL)
+- Returns query results in a user-friendly format
+
+## 🧠 Use Case
+
+For example:
+> "Show me all users who registered in the last 7 days"
+
+➡️ Will be converted to:
+```sql
+SELECT * FROM users WHERE registration_date >= DATE_SUB(CURDATE(), INTERVAL 7 DAY);
