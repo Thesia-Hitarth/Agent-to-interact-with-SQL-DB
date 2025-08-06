@@ -29,12 +29,3 @@ For example:
 SELECT * FROM users WHERE registration_date >= DATE_SUB(CURDATE(), INTERVAL 7 DAY);
 
 
-
-
-Made with ❤️ by Abx
-
-
----
-
-Want me to customize this further based on the tech stack or features you've built?
-I will not if you want to use do it by your self
